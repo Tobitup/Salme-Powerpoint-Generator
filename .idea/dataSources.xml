@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="PsalmDatabase" uuid="7b014f37-d366-4dec-9a53-c003fdde9b77">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Users\Tobitup\Documents\GitHub\Salme-Powerpoint-Generator\PsalmDatabase.sqlite</jdbc-url>
+      <keep-alive enable="true" />
+    </data-source>
+  </component>
+</project>
