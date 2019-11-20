@@ -1,3 +1,3 @@
-# MiniProjekt
+# MiniProjekt - Powerpoint Salme Generator
 
-Programering Miniprojekt ved brug af IntelliJ, SQL Databases og GUI Forms
+Dette program vil ved brug af IntelliJ, SQL Databases og GUI Forms kunne tage en salme fra DenDanskeSalmeBogOnline.dk og indsætte den I Powerpoint slides på en ordenlig og overskulig måde. 
