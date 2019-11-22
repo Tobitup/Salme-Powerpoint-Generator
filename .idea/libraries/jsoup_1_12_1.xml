@@ -1,7 +1,7 @@
 <component name="libraryTable">
-  <library name="poi-ooxml-4.1.1">
+  <library name="jsoup-1.12.1">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/libraries/poi-ooxml-4.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libraries/jsoup-1.12.1.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
