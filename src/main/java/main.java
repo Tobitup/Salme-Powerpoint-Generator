@@ -1,8 +1,7 @@
-public class main {
-    public static void main(String[] args){
+import java.io.IOException;
 
-    }
-    public void downloadPsalms() {
-        
+public class main {
+    public static void main(String[] args) throws IOException {
+        psalm.downloadPsalms(50);
     }
 }
