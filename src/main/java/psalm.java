@@ -6,8 +6,6 @@ import java.io.IOException;
 
 public class psalm {
 
-
-
     public static void downloadPsalms(int psalm) throws IOException {
         //for(int i = 1; i < psalms; i++){
             Document doc = Jsoup.connect("https://www.dendanskesalmebogonline.dk/salme/" + psalm).get();
