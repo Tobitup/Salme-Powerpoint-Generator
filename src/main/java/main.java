@@ -1,11 +1,4 @@
-<<<<<<< Updated upstream
-public class main {
-    public static void main(String[] args){
 
-    }
-    public void downloadPsalms() {
-        
-=======
 import java.io.IOException;
 import org.apache.poi.ooxml.*;
 import org.apache.poi.*;
@@ -17,6 +10,5 @@ public class main {
         //System.out.println(psalm.downloadPsalms(50));
         powerpoint slide1 = new powerpoint();
         slide1.generateSlide(400);
->>>>>>> Stashed changes
     }
 }
