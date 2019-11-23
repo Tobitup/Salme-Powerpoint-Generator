@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8fea0dae-dd84-4a75-aa9e-75873e51bbf7" name="Default Changelist" comment="" />
+    <list default="true" id="8fea0dae-dd84-4a75-aa9e-75873e51bbf7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7b014f37-d366-4dec-9a53-c003fdde9b77.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7b014f37-d366-4dec-9a53-c003fdde9b77.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gui.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/gui$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/gui$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/gui.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/gui.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +72,7 @@
   <component name="RunManager">
     <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main" />
-      <module name="Salme-Powerpoint-Generator" />
+      <module name="Powerpoint-Generator" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -89,6 +95,7 @@
       <updated>1574242068031</updated>
       <workItem from="1574274975796" duration="795000" />
       <workItem from="1574426131568" duration="6015000" />
+      <workItem from="1574464856889" duration="3256000" />
     </task>
     <servers />
   </component>

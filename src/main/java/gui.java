@@ -1,6 +1,7 @@
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.beans.ExceptionListener;
 
 public class gui {
     private static int WINDOWWIDTH = 1080;
@@ -9,17 +10,25 @@ public class gui {
     private JPanel Preview;
     private JTextField salmeNrField;
     private JLabel salmeNrLabel;
+    private int salmeNr;
 
     public gui() {
         salmeNrField.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                Integer.parseInt(salmeNrField.getText());
-                System.out.println(salmeNrField.getText());
+                //Exception handler for NumberFormatError
+                try {
+                    salmeNr = Integer.parseInt(salmeNrField.getText());
+                    System.out.println(salmeNrField.getText());
+                    }
+                catch(NumberFormatException ex) {
+                    System.out.println("Invalid Input, Please enter a number");
+                }
+                }
 
                 //TODO: Add Database connection
             }
-        });
+        );
     }
 
     public static void initializeGUI() {
