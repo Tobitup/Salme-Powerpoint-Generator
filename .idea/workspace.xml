@@ -7,6 +7,159 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/gui.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/gui$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/gui$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/gui.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/gui.class" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_apache_poi_poi_ooxml_4_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/poi_4_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/poi_ooxml_4_1_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/org_apache_poi_poi_4_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/org_apache_poi_poi_ooxml_4_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/commons-codec-1.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/commons-collections4-4.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/commons-compress-1.19.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/poi-4.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/poi-ooxml-4.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/poi-ooxml-schemas-4.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/jsoup-1.12.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/poi-4.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/poi-ooxml-4.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/NOTICE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/bin/_setlib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/bin/_setlib.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/bin/dumpxsb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/bin/dumpxsb.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/bin/inst2xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/bin/inst2xsd.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/bin/scomp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/bin/scomp.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/bin/scopy.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/bin/sdownload" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/bin/sdownload.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/bin/sfactor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/bin/sfactor.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/bin/svalidate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/bin/svalidate.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/bin/validate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/bin/validate.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/bin/xpretty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/bin/xpretty.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/bin/xsd2inst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/bin/xsd2inst.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/bin/xsdtree" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/bin/xsdtree.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/bin/xstc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/bin/xstc.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/doap_XMLBeans.rdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/docs/guide/antXmlbean.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/docs/guide/conGettingStartedwithXMLBeans.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/docs/guide/conHandlingAny.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/docs/guide/conIntroToTheSchemaTypeSystem.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/docs/guide/conJavaTypesGeneratedFromUserDerived.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/docs/guide/conMethodsForGeneratedJavaTypes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/docs/guide/conNavigatingXMLwithCursors.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/docs/guide/conSelectingXMLwithXQueryPathXPath.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/docs/guide/conUnderstandingXMLTokens.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/docs/guide/conUsingBookmarksToAnnotateXML.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/docs/guide/conValidationWithXmlBeans.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/docs/guide/conXMLBeansSupportBuiltInSchemaTypes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/docs/guide/tools.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/docs/images/conCursorTokenLocations.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/docs/images/conXMLTypeHierarchy.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/docs/xmlbeans.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/lib/resolver.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/lib/xmlbeans-3.1.0-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/lib/xmlbeans-3.1.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/lib/xmlbeans-3.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/samples/Any/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/samples/Any/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/samples/Any/schemas/any.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/samples/Any/src/org/apache/xmlbeans/samples/any/ListOfStrings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/samples/Any/src/org/apache/xmlbeans/samples/any/RootDocument.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/samples/Any/src/org/apache/xmlbeans/samples/any/StringelementDocument.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/samples/Any/src/org/apache/xmlbeans/samples/any/impl/ListOfStringsImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/samples/Any/src/org/apache/xmlbeans/samples/any/impl/RootDocumentImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/samples/Any/src/org/apache/xmlbeans/samples/any/impl/StringelementDocumentImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/samples/Any/src/org/apache/xmlbeans/samples/anytype/Any.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/samples/Any/src/org/apache/xmlbeans/samples/anytype/AnyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/samples/Any/xml/any.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/samples/DateTime/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/samples/DateTime/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/samples/DateTime/schemas/datetime.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/samples/DateTime/src/org/apache/xmlbeans/samples/datetime/DateTime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/samples/DateTime/src/org/apache/xmlbeans/samples/datetime/DateTimeTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/samples/DateTime/xml/datetimesample.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/samples/DateTime/xml/newdatetimesample.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/samples/MixedContent/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/samples/MixedContent/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/samples/MixedContent/schemas/inventory.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/samples/MixedContent/src/org/apache/xmlbeans/samples/cursor/MixedContent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/samples/MixedContent/src/org/apache/xmlbeans/samples/cursor/MixedContentTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/samples/MixedContent/xml/inventoryitems.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/samples/OrderMatters/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/samples/OrderMatters/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/samples/OrderMatters/schemas/stmt.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/samples/OrderMatters/src/org/apache/xmlbeans/samples/cursor/OrderMatters.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/samples/OrderMatters/src/org/apache/xmlbeans/samples/cursor/OrderMattersTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/samples/OrderMatters/xml/stmt.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/samples/SchemaEnum/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/samples/SchemaEnum/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/samples/SchemaEnum/schemas/EasyPO.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/samples/SchemaEnum/schemas/PriceSummary.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/samples/SchemaEnum/src/org/apache/xmlbeans/samples/enumeration/SchemaEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/samples/SchemaEnum/src/org/apache/xmlbeans/samples/enumeration/SchemaEnumTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/samples/SchemaEnum/xml/PriceSummary.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/samples/SchemaEnum/xml/PurchaseOrder.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/samples/Validation/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/samples/Validation/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/samples/Validation/schemas/todolist.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/samples/Validation/src/org/apache/xmlbeans/samples/validation/Validation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/samples/Validation/src/org/apache/xmlbeans/samples/validation/ValidationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/samples/Validation/src/org/apache/xmlbeans/samples/validation/todolist/ActionType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/samples/Validation/src/org/apache/xmlbeans/samples/validation/todolist/IdType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/samples/Validation/src/org/apache/xmlbeans/samples/validation/todolist/ItemType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/samples/Validation/src/org/apache/xmlbeans/samples/validation/todolist/NameType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/samples/Validation/src/org/apache/xmlbeans/samples/validation/todolist/TodolistDocument.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/samples/Validation/src/org/apache/xmlbeans/samples/validation/todolist/impl/ActionTypeImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/samples/Validation/src/org/apache/xmlbeans/samples/validation/todolist/impl/IdTypeImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/samples/Validation/src/org/apache/xmlbeans/samples/validation/todolist/impl/ItemTypeImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/samples/Validation/src/org/apache/xmlbeans/samples/validation/todolist/impl/NameTypeImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/samples/Validation/src/org/apache/xmlbeans/samples/validation/todolist/impl/TodolistDocumentImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/samples/Validation/xml/todolist.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/samples/XQueryXPath/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/samples/XQueryXPath/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/samples/XQueryXPath/schemas/employeeschema.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/samples/XQueryXPath/src/org/apache/xmlbeans/samples/xquery/ExecQuery.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/samples/XQueryXPath/src/org/apache/xmlbeans/samples/xquery/SelectPath.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/samples/XQueryXPath/src/org/apache/xmlbeans/samples/xquery/XQueryXPath.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/samples/XQueryXPath/src/org/apache/xmlbeans/samples/xquery/XQueryXPathTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/samples/XQueryXPath/xml/employees.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/samples/XsdConfig/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/samples/XsdConfig/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/samples/XsdConfig/schemas/catalog.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/samples/XsdConfig/schemas/myconfig.xsdconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/samples/XsdConfig/src/org/apache/xmlbeans/samples/xsdconfig/CatalogXsd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/samples/XsdConfig/src/org/apache/xmlbeans/samples/xsdconfig/CatalogXsdConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/samples/XsdConfig/src/org/apache/xmlbeans/samples/xsdconfig/XsdConfigTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/samples/XsdConfig/src/org/apache/xmlbeans/samples/xsdconfig/XsdTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/samples/XsdConfig/xml/catalog.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/schemas/easypo.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/schemas/easypo.xsdconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/schemas/nameworld.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/schemas/numerals.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/schemas/s4s/XML.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/xmlbeans-3.1.0/schemas/s4s/XMLSchema.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/powerpoint.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/powerpoint.pptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/powerpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/powerpoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/database.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/database.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/powerpoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/powerpoint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/psalm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/psalm.class" afterDir="false" />
+>>>>>>> site_to_powerpoint
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,8 +189,14 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="ADD_SUFFIX_TO_CHERRY_PICKS_OF_PUBLISHED_COMMITS" value="false" />
+    <option name="PREVIEW_PUSH_ON_COMMIT_AND_PUSH" value="false" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
+=======
+    <option name="WARN_ABOUT_CRLF" value="false" />
+    <option name="WARN_ABOUT_DETACHED_HEAD" value="false" />
+>>>>>>> site_to_powerpoint
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -48,6 +207,11 @@
   </component>
   <component name="ProjectId" id="1TsHplH5JEnBchwrFk4Dv5ayiad" />
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/GitHubDesktop/GitHubDesktop.exe" />
@@ -56,6 +220,13 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+=======
+    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/GitHubDesktop/bin/github" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+>>>>>>> site_to_powerpoint
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
