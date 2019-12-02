@@ -27,7 +27,7 @@ public class gui {
                     System.out.println(salmeNrField.getText());
                     int psalmnumba = Integer.parseInt(salmeNrField.getText());
                     salmeNrField.setText("");
-                    salmeValgLabel.setText(psalm.downloadPsalms(psalmnumba));
+                    salmeValgLabel.setText(psalm.downloadPsalms(psalmnumba, "title"));
                 }
                 catch(NumberFormatException | IOException ex) {
                     System.out.println("Invalid Input, Please enter a number");
