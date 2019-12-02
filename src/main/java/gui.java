@@ -21,6 +21,8 @@ public class gui {
             public void actionPerformed(ActionEvent e) {
                 //Exception handler for NumberFormatError
                 try {
+                    salmeNrLabelForDisplay.setText("");     //Clears both labels
+                    salmeValgLabel.setText("");
                     salmeNr = Integer.parseInt(salmeNrField.getText());     //Gets input text, parses input and displays salme number and title
                     salmeNrLabelForDisplay.setText("69");
                     salmeValgLabel.setText("Shit Broken Yo");
@@ -28,7 +30,7 @@ public class gui {
                     salmeNrField.setText("");
                     }
                 catch(NumberFormatException ex) {
-                    System.out.println("Invalid Input, Please enter a number");
+                    salmeNrLabelForDisplay.setText("Invalid Input, please enter a number");
                     salmeNrField.setText("");
                 }
                 }
