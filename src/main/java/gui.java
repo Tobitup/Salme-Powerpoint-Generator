@@ -2,6 +2,7 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.beans.ExceptionListener;
+import java.io.IOException;
 
 public class gui {
     private static int WINDOWWIDTH = 1080;
@@ -25,12 +26,19 @@ public class gui {
                     salmeValgLabel.setText("");
                     salmeNr = Integer.parseInt(salmeNrField.getText());     //Gets input text, parses input and displays salme number and title
                     salmeNrLabelForDisplay.setText("69");
-                    salmeValgLabel.setText("Shit Broken Yo");
                     System.out.println(salmeNrField.getText());
+                    int psalmnumba = Integer.parseInt(salmeNrField.getText());
                     salmeNrField.setText("");
+<<<<<<< HEAD
                     }
                 catch(NumberFormatException ex) {
                     salmeNrLabelForDisplay.setText("Invalid Input, please enter a number");
+=======
+                    salmeValgLabel.setText(psalm.downloadPsalms(psalmnumba, "title"));
+                }
+                catch(NumberFormatException | IOException ex) {
+                    System.out.println("Invalid Input, Please enter a number");
+>>>>>>> return-switch
                     salmeNrField.setText("");
                 }
                 }

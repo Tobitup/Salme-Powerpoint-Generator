@@ -6,6 +6,15 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/powerpoint.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/powerpoint.pptx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/gui.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui.java" afterDir="false" />
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/src/main/java/powerpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/powerpoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/psalm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/psalm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/gui$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/gui$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/gui.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/gui.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/powerpoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/powerpoint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/psalm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/psalm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/template.pptx" afterDir="false" />
+>>>>>>> return-switch
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +62,7 @@
   </component>
   <component name="ProjectId" id="1TsHplH5JEnBchwrFk4Dv5ayiad" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
@@ -60,6 +70,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/GitHubDesktop/GitHubDesktop.exe" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -67,12 +78,18 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     =======
+=======
+>>>>>>> return-switch
     <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/GitHubDesktop/bin/github" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+<<<<<<< HEAD
     &gt;&gt;&gt;&gt;&gt;&gt;&gt; site_to_powerpoint
+=======
+>>>>>>> return-switch
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -86,7 +103,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.main (1)">
+    <configuration name="main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main" />
+      <module name="Powerpoint-Generator" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main" />
       <module name="Salme-Powerpoint-Generator" />
@@ -96,6 +120,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.main (1)" />
         <item itemvalue="Application.main" />
       </list>
     </recent_temporary>
@@ -114,7 +139,11 @@
       <workItem from="1574426131568" duration="6015000" />
       <workItem from="1574464856889" duration="3256000" />
       <workItem from="1574544690566" duration="2083000" />
+<<<<<<< HEAD
       <workItem from="1575279822000" duration="363000" />
+=======
+      <workItem from="1574775983085" duration="1790000" />
+>>>>>>> return-switch
     </task>
     <servers />
   </component>
@@ -133,5 +162,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/main.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

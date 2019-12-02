@@ -1,5 +1,4 @@
 import org.apache.poi.xslf.usermodel.*;
-
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -15,17 +14,17 @@ public class powerpoint {
 
     public void generateSlide(int song) throws IOException {
         XMLSlideShow templateShow = new XMLSlideShow(
-                new FileInputStream("template.pptx"));
+                new FileInputStream("template.pptx"));                                               //Henter powerpointfilen "template" som skal bruges.
         List<XSLFSlide> Slides = templateShow.getSlides();
-        XSLFSlide Slide1 = ppt2.createSlide((XSLFSlideLayout) bodyLayout.importContent(Slides.get(0)));
-        XSLFTextShape body = Slide1.getPlaceholder(0);
+        XSLFSlide Slide1 = ppt2.createSlide((XSLFSlideLayout) bodyLayout.importContent(Slides.get(0)));    //Laver et nyt slide i den nye powerpoint med samme layout som det importerede slide.
+        XSLFTextShape body = Slide1.getPlaceholder(0);                                                 //Laver et textfelt der hedder body ud fra det første element i det importerede slide
         //body.setText(psalm.downloadPsalms(song));
         body.clearText();
-        XSLFTextParagraph paragraph = body.addNewTextParagraph();
+        XSLFTextParagraph paragraph = body.addNewTextParagraph();                                          //Laver et system sådan at når run.setText() bliver kørt så kommer det ind i tekstfeltet
         XSLFTextRun run = paragraph.addNewTextRun();
-        run.setText(psalm.downloadPsalms(song));
+        run.setText(psalm.downloadPsalms(song,0));
         run.setFontSize((double) 30);
-        FileOutputStream out = new FileOutputStream("powerpoint.pptx");
+        FileOutputStream out = new FileOutputStream("powerpoint.pptx");                              //Gør sådan at vi kan outputte vores powerpoint til en fil.
         ppt2.write(out);
         out.close();
         System.out.println("closed");
