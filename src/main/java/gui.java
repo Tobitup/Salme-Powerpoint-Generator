@@ -15,6 +15,7 @@ public class gui {
     private JLabel salmeNrLabelForDisplay;
     private JButton compileButton;
     private int salmeNr;
+    private int psalmnumba;
 
     public gui() {
         salmeNrField.addActionListener(new ActionListener() {
@@ -29,16 +30,11 @@ public class gui {
                     System.out.println(salmeNrField.getText());
                     int psalmnumba = Integer.parseInt(salmeNrField.getText());
                     salmeNrField.setText("");
-<<<<<<< HEAD
                     }
-                catch(NumberFormatException ex) {
-                    salmeNrLabelForDisplay.setText("Invalid Input, please enter a number");
-=======
-                    salmeValgLabel.setText(psalm.downloadPsalms(psalmnumba, "title"));
-                }
                 catch(NumberFormatException | IOException ex) {
+                    salmeNrLabelForDisplay.setText("Invalid Input, please enter a number");
+                    salmeValgLabel.setText(psalm.downloadPsalms(psalmnumba, "title"));
                     System.out.println("Invalid Input, Please enter a number");
->>>>>>> return-switch
                     salmeNrField.setText("");
                 }
                 }
