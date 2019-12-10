@@ -22,7 +22,7 @@ public class powerpoint {
         body.clearText();
         XSLFTextParagraph paragraph = body.addNewTextParagraph();                                          //Laver et system sådan at når run.setText() bliver kørt så kommer det ind i tekstfeltet
         XSLFTextRun run = paragraph.addNewTextRun();
-        run.setText(psalm.downloadPsalms(song,"verse1"));
+        //run.setText(psalm.downloadPsalms(song,"verse1"));
         run.setFontSize((double) 30);
         FileOutputStream out = new FileOutputStream("powerpoint.pptx");                              //Gør sådan at vi kan outputte vores powerpoint til en fil.
         ppt2.write(out);

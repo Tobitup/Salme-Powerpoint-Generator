@@ -3,59 +3,20 @@ import java.sql.*;
 public class SQLiteTest {
     private static Connection con = null;
     private static boolean hasData = false;
-    public ResultSet displayUsers() throws SQLException, ClassNotFoundException {
+    public void addPsalm(int number, String[] info) throws ClassNotFoundException, SQLException {
         if(con == null) {
-            // get connection
             getConnection();
         }
-        Statement state = con.createStatement();
-        ResultSet res = state.executeQuery("select fname, lname from user");
-        return res;
-    }
-    public void addUser(int number, String firstname, String lastname) throws ClassNotFoundException, SQLException {
-        if(con == null) {
-            // get connection
-            getConnection();
-        }
-        PreparedStatement prep = con.prepareStatement("insert into user values(?,?,?);");
+        PreparedStatement prep = con.prepareStatement("insert into psalm values(?,?,?,?);");
         prep.setInt(1, number);
-        prep.setString(2, firstname);
-        prep.setString(3, lastname);
+        prep.setString(2, info[0]);
+        prep.setString(3, info[1]);
+        prep.setString(4, info[2]);
+
         prep.execute();
 
     }
     private void getConnection() throws ClassNotFoundException, SQLException {
-        // sqlite driver
-        //Class.forName("org.sqlite.JDBC");
-        // database path, if it's new database, it will be created in the project folder
-        con = DriverManager.getConnection("jdbc:sqlite:SQLiteTest1.db");
-        initialise();
-    }
-    private void initialise() throws SQLException {
-        if( !hasData ) {
-            hasData = true;
-            // check for database table
-            Statement state = con.createStatement();
-            ResultSet res = state.executeQuery("SELECT name FROM sqlite_master WHERE type='table' AND name='user'");
-            if( !res.next()) {
-                System.out.println("Building the User table with prepopulated values.");
-                // need to build the table
-                Statement state2 = con.createStatement();
-                state2.executeUpdate("create table user(id integer,"
-                        + "fName int(60)," + "lname int(60)," + "primary key (id));");
-
-                // inserting some sample data
-                PreparedStatement prep = con.prepareStatement("insert into user values(?,?,?);");
-                prep.setString(2, "John");
-                prep.setString(3, "McNeil");
-                prep.execute();
-
-                PreparedStatement prep2 = con.prepareStatement("insert into user values(?,?,?);");
-                prep2.setString(2, "Paul");
-                prep2.setString(3, "Smith");
-                prep2.execute();
-            }
-
-        }
+        con = DriverManager.getConnection("jdbc:sqlite:PsalmDatabase.sqlite");
     }
 }
