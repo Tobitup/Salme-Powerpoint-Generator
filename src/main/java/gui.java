@@ -29,11 +29,12 @@ public class gui {
                     salmeNrLabelForDisplay.setText("69");
                     System.out.println(salmeNrField.getText());
                     int psalmnumba = Integer.parseInt(salmeNrField.getText());
+                    salmeValgLabel.setText(psalm.downloadPsalms(psalmnumba, "title"));
                     salmeNrField.setText("");
                     }
                 catch(NumberFormatException | IOException ex) {
                     salmeNrLabelForDisplay.setText("Invalid Input, please enter a number");
-                    salmeValgLabel.setText(psalm.downloadPsalms(psalmnumba, "title"));
+                    //salmeValgLabel.setText(psalm.downloadPsalms(psalmnumba, "title"));
                     System.out.println("Invalid Input, Please enter a number");
                     salmeNrField.setText("");
                 }

@@ -5,8 +5,14 @@
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:C:\Users\Tobitup\Documents\GitHub\Salme-Powerpoint-Generator\PsalmDatabase.sqlite</jdbc-url>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/PsalmDatabase.sqlite</jdbc-url>
       <keep-alive enable="true" />
+    </data-source>
+    <data-source source="LOCAL" name="MySQL - psalmdatabase@localhost" uuid="ae395b21-75c3-4b34-aa45-f47dc9a446a5">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/psalmdatabase</jdbc-url>
     </data-source>
   </component>
 </project>
