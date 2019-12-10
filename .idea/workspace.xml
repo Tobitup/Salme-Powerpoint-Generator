@@ -2,36 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8fea0dae-dd84-4a75-aa9e-75873e51bbf7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_mysql_connector_java_8_0_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_apache_poi_poi_4_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_apache_poi_poi_ooxml_4_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_xerial_sqlite_jdbc_3_27_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7b014f37-d366-4dec-9a53-c003fdde9b77.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ae395b21-75c3-4b34-aa45-f47dc9a446a5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_h2database_h2_1_4_185.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/mssql_jdbc_7_4_1_jre12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_18.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/org_apache_poi_poi_4_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/org_apache_poi_poi_ooxml_4_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/org_jsoup_jsoup_1_12_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/org_jsoup_jsoup_1_12_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/org_xerial_sqlite_jdbc_3_28_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/mysql_mysql_connector_java_8_0_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PsalmDatabase.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/PsalmDatabase.sqlite" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SQLiteTest1.db" beforeDir="false" afterPath="$PROJECT_DIR$/SQLiteTest1.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/powerpoint.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/powerpoint.pptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SQLiteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SQLiteTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/database.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gui.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/powerpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/powerpoint.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/psalm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/psalm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SQLiteTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SQLiteTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/database.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gui$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/gui$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/powerpoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/powerpoint.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/psalm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/psalm.class" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,7 +76,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="C:/Program Files (x86)/MySQL/Connector J 8.0/mysql-connector-java-8.0.18.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -157,6 +135,7 @@
       <workItem from="1574775983085" duration="1790000" />
       <workItem from="1575906802345" duration="1952000" />
       <workItem from="1575920602503" duration="11378000" />
+      <workItem from="1575984284210" duration="3623000" />
     </task>
     <servers />
   </component>
