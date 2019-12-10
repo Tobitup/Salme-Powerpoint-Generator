@@ -7,8 +7,8 @@ public class database {
         int nice = 0;
         try{
             String host= "jdbc:mysql://192.168.1.20:3306/psalmdatabase";
-            String uName = "remote";
-            String uPass = "remoteaccess";
+            String uName = "user";
+            String uPass = "password";
             con = DriverManager. getConnection(host, uName, uPass);
 Statement myStmt = con.createStatement();
 String sql  = "Select * from Psalm";
