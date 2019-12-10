@@ -6,8 +6,8 @@ import java.sql.SQLException;
 public class main {
     public String verse1;
     public static void main(String[] args) throws IOException {
-        //gui run = new gui();
-        //run.initializeGUI();
+        gui run = new gui();
+        run.initializeGUI();
         database db = new database();
         db.initializeDatabase();
         powerpoint slide1 = new powerpoint();
