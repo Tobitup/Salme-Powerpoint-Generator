@@ -23,16 +23,17 @@ public class gui {
             public void actionPerformed(ActionEvent e) {
                 //Exception handler for NumberFormatError
                 try {
+                    String[] info = psalm.downloadPsalms(salmeNr);
                     salmeNrLabelForDisplay.setText("");     //Clears both labels
                     salmeValgLabel.setText("");
                     salmeNr = Integer.parseInt(salmeNrField.getText());     //Gets input text, parses input and displays salme number and title
-                    salmeNrLabelForDisplay.setText("69");
+                    salmeNrLabelForDisplay.setText(salmeNrField.getText());
+                    salmeValgLabel.setText(info[0]);
                     System.out.println(salmeNrField.getText());
                     int psalmnumba = Integer.parseInt(salmeNrField.getText());
-                    //salmeValgLabel.setText(psalm.downloadPsalms(psalmnumba);
                     salmeNrField.setText("");
                     }
-                catch(NumberFormatException ex) {
+                catch(NumberFormatException | IOException ex) {
                     salmeNrLabelForDisplay.setText("Invalid Input, please enter a number");
                     //salmeValgLabel.setText(psalm.downloadPsalms(psalmnumba, "title"));
                     System.out.println("Invalid Input, Please enter a number");
@@ -40,9 +41,21 @@ public class gui {
                 }
                 }
 
-                //TODO: Add Database connection
             }
         );
+        compileButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                try{
+                    salmeNrField.getText();
+                    System.out.println(salmeNrField.getText());
+                }
+                catch(NumberFormatException ex) {
+                System.out.println("Error, Suck my dick");
+                }
+
+            }
+        });
     }
 
     public static void initializeGUI() {
