@@ -18,14 +18,16 @@ public class psalm {
         Element verseNumber = doc.select("div.salme-vers-nr").last();
         Element authorElement = null;
         String verse1Text = null;
-        String title = songTitle.wholeText();
+        String title;
+        title = songTitle.wholeText();
         String author = null;
-        String numberOfVerses = null;
+        String numberOfVerses = "0";
         if(verse1 != null) {
             authorElement = authorElements.get(1);
             author = authorElement.text();
             verse1Text = verse1.wholeText();
             System.out.println(verse1Text);
+            System.out.println(title);
             verse1Text = cleanText(verse1Text, title);
             System.out.println(verse1Text);
             numberOfVerses = verseNumber.wholeText();
@@ -40,13 +42,14 @@ public class psalm {
     }
     public void psalmToDatabase() throws IOException, SQLException, ClassNotFoundException {
         SQLiteTest db = new SQLiteTest();
-        for(int i = 10; i < 11 /*791*/; i++){
+        for(int i = 1; i < 791; i++){
             db.addPsalm(i, downloadPsalms(i));
         }
     }
     public static String cleanText(String text, String title){
         String output = "";
-        output = text.substring(text.indexOf(title));
+        String indexString = title.substring(0,4);
+        output = text.substring(text.indexOf(indexString));
         return output;
     }
 }

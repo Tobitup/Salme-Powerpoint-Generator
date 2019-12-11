@@ -7,11 +7,13 @@ public class SQLiteTest {
         if(con == null) {
             getConnection();
         }
-        PreparedStatement prep = con.prepareStatement("insert into psalm values(?,?,?,?);");
+        PreparedStatement prep = con.prepareStatement("insert into psalm values(?,?,?,?,?);");
         prep.setInt(1, number);
         prep.setString(2, info[0]);
         prep.setString(3, info[1]);
         prep.setString(4, info[2]);
+        prep.setString(5, info[3]);
+
 
         prep.execute();
 

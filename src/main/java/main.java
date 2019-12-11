@@ -8,10 +8,9 @@ public class main {
         //gui run = new gui();
         //run.initializeGUI();
         //SQLiteTest db = new SQLiteTest();
-        //db.addPsalm(psalmToDownload, p.downloadPsalms(psalmToDownload, "title"), p.downloadPsalms(psalmToDownload, "author"), p.downloadPsalms(psalmToDownload, "verse1"));
-        //psalm p = new psalm();
-        //p.psalmToDatabase();
-        powerpoint slide1 = new powerpoint();
-        slide1.generateSlide(543);
+        psalm p = new psalm();
+        p.psalmToDatabase();
+        //powerpoint slide1 = new powerpoint();
+        //slide1.generateSlide(543);
     }
 }
