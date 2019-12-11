@@ -14,7 +14,8 @@ public class powerpoint {
     }
 
     public void generateSlide(int song) throws IOException {
-        String[] info = psalm.downloadPsalms(song);
+        psalm p = new psalm();
+        String[] info = p.downloadPsalms(song);
         XMLSlideShow templateShow = new XMLSlideShow(
                 new FileInputStream("template.pptx"));                                               //Henter powerpointfilen "template" som skal bruges.
         List<XSLFSlide> Slides = templateShow.getSlides();

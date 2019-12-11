@@ -18,20 +18,22 @@ public class gui {
     private int psalmnumba;
 
     public gui() {
-        salmeNrField.addActionListener(new ActionListener() {
+        compileButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 //Exception handler for NumberFormatError
                 try {
+                    salmeNr = Integer.parseInt(salmeNrField.getText());
                     String[] info = psalm.downloadPsalms(salmeNr);
                     salmeNrLabelForDisplay.setText("");     //Clears both labels
                     salmeValgLabel.setText("");
-                    salmeNr = Integer.parseInt(salmeNrField.getText());     //Gets input text, parses input and displays salme number and title
+//Gets input text, parses input and displays salme number and title
                     salmeNrLabelForDisplay.setText(salmeNrField.getText());
                     salmeValgLabel.setText(info[0]);
                     System.out.println(salmeNrField.getText());
-                    int psalmnumba = Integer.parseInt(salmeNrField.getText());
                     salmeNrField.setText("");
+                    powerpoint slide1 = new powerpoint();
+                    slide1.generateSlide(salmeNr);
                     }
                 catch(NumberFormatException | IOException ex) {
                     salmeNrLabelForDisplay.setText("Invalid Input, please enter a number");
@@ -43,7 +45,7 @@ public class gui {
 
             }
         );
-        compileButton.addActionListener(new ActionListener() {
+        salmeNrField.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 try{
