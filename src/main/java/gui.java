@@ -1,7 +1,10 @@
+import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.image.BufferedImage;
 import java.beans.ExceptionListener;
+import java.io.File;
 import java.io.IOException;
 
 public class gui {
@@ -14,6 +17,9 @@ public class gui {
     private JLabel salmeValgLabel;
     private JLabel salmeNrLabelForDisplay;
     private JButton compileButton;
+    private JLabel picLabel;
+    private JLabel salmeBog;
+    private JLabel executionCompleteLabel;
     private int salmeNr;
     private int psalmnumba;
 
@@ -59,7 +65,29 @@ public class gui {
                     salmeNrField.setText("");
                 }
                 }
+
             }
         );
     }
 }
+
+            }
+        );
+    }
+
+    public static void initializeGUI() {
+        JFrame Window = new JFrame();
+        Window.setSize(WINDOWWIDTH, WINDOWHEIGHT);
+        Window.setContentPane(new gui().main);
+        Window.setVisible(true);
+
+
+
+    }
+
+    private void createUIComponents() {
+        // TODO: place custom component creation code here
+        salmeBog = new JLabel(new ImageIcon("rsz_2rsz_salmeBog.png"));
+    }
+}
+
