@@ -1,12 +1,15 @@
+import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.image.BufferedImage;
 import java.beans.ExceptionListener;
+import java.io.File;
 import java.io.IOException;
 
 public class gui {
-    private static int WINDOWWIDTH = 1080;
-    private static int WINDOWHEIGHT = 720;
+    private static int WINDOWWIDTH = 750;
+    private static int WINDOWHEIGHT = 200;
     private JPanel main;
     private JPanel Preview;
     private JTextField salmeNrField;
@@ -14,6 +17,9 @@ public class gui {
     private JLabel salmeValgLabel;
     private JLabel salmeNrLabelForDisplay;
     private JButton compileButton;
+    private JLabel picLabel;
+    private JLabel salmeBog;
+    private JLabel executionCompleteLabel;
     private int salmeNr;
     private int psalmnumba;
 
@@ -38,8 +44,11 @@ public class gui {
                     salmeNrField.setText("");
                 }
                 }
+<<<<<<< Updated upstream
 
                 //TODO: Add Database connection
+=======
+>>>>>>> Stashed changes
             }
         );
     }
@@ -56,5 +65,6 @@ public class gui {
 
     private void createUIComponents() {
         // TODO: place custom component creation code here
+        salmeBog = new JLabel(new ImageIcon("rsz_2rsz_salmeBog.png"));
     }
 }
