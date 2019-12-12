@@ -2,15 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8fea0dae-dd84-4a75-aa9e-75873e51bbf7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_mysql_connector_java_8_0_17.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/mysql_mysql_connector_java_8_0_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/org_apache_poi_poi_ooxml_4_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/org_apache_poi_poi_ooxml_4_1_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/org_xerial_sqlite_jdbc_3_27_2.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/powerpoint.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/powerpoint.pptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SQLiteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SQLiteTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gui.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/gui.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/powerpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/powerpoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/psalm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/psalm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/gui$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/gui$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gui$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/gui$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/gui$2.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/gui.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/gui.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/powerpoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/powerpoint.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +88,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -108,7 +116,7 @@
     </configuration>
     <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main" />
-      <module name="Salme-Powerpoint-Generator" />
+      <module name="Powerpoint-Generator" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -142,6 +150,7 @@
       <workItem from="1576024213287" duration="8157000" />
       <workItem from="1576048621301" duration="7812000" />
       <workItem from="1576067304365" duration="1189000" />
+      <workItem from="1576160248040" duration="1518000" />
     </task>
     <servers />
   </component>

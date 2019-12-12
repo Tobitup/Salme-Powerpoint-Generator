@@ -6,12 +6,11 @@ import java.io.IOException;
 import java.util.List;
 
 public class powerpoint {
+
     public XMLSlideShow ppt2 = new XMLSlideShow();
     XSLFSlideMaster slideMaster = ppt2.getSlideMasters().get(0);
     private XSLFSlideLayout bodyLayout = slideMaster.getLayout(SlideLayout.TITLE_AND_CONTENT);
 
-    powerpoint() {
-    }
 
     public void generateSlide(int song) throws IOException {
         psalm p = new psalm();
