@@ -1,17 +1,13 @@
 import javax.swing.*;
 import java.io.IOException;
+import java.sql.SQLException;
 
 public class main {
+    private static int psalmToDownload = 250;
     public String verse1;
-<<<<<<< Updated upstream
-
-    public static void main(String[] args) throws IOException {
-=======
     public static void main(String[] args) throws IOException, SQLException, ClassNotFoundException, NullPointerException {
->>>>>>> Stashed changes
         gui run = new gui();
         run.initializeGUI();
-        powerpoint slide1 = new powerpoint();
-        slide1.generateSlide(400);
+        psalm p = new psalm();
     }
 }

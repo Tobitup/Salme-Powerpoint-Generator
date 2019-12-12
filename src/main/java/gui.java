@@ -23,32 +23,54 @@ public class gui {
     private int salmeNr;
     private int psalmnumba;
 
+
+    public static void initializeGUI() {
+        //Initializes GUI by creating the JFrame and Panel
+        JFrame Window = new JFrame();
+        Window.setSize(WINDOWWIDTH, WINDOWHEIGHT);
+        Window.setContentPane(new gui().main);
+        Window.setVisible(true);
+    }
+
+
     public gui() {
-        salmeNrField.addActionListener(new ActionListener() {
+        compileButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 //Exception handler for NumberFormatError
                 try {
-                    salmeNrLabelForDisplay.setText("");     //Clears both labels
+                    //Clears both existing labels
+                    salmeNrLabelForDisplay.setText("");
                     salmeValgLabel.setText("");
-                    salmeNr = Integer.parseInt(salmeNrField.getText());     //Gets input text, parses input and displays salme number and title
-                    salmeNrLabelForDisplay.setText("69");
+
+                    //Gets input text, parses input ito int
+                    salmeNr = Integer.parseInt(salmeNrField.getText());
+                    String[] info = psalm.downloadPsalms(salmeNr);
+
+                    //Displays salme number and title
+                    salmeNrLabelForDisplay.setText(salmeNrField.getText());
+                    salmeValgLabel.setText(info[0]);
                     System.out.println(salmeNrField.getText());
-                    int psalmnumba = Integer.parseInt(salmeNrField.getText());
                     salmeNrField.setText("");
+
+                    //Creates PowerPoint Slide from Database data
+                    powerpoint slide1 = new powerpoint();
+                    slide1.generateSlide(salmeNr);
                     }
+
+                //Catches error if user inputs string instead of int
                 catch(NumberFormatException | IOException ex) {
                     salmeNrLabelForDisplay.setText("Invalid Input, please enter a number");
-                    salmeValgLabel.setText(psalm.downloadPsalms(psalmnumba, "title"));
                     System.out.println("Invalid Input, Please enter a number");
                     salmeNrField.setText("");
                 }
                 }
-<<<<<<< Updated upstream
 
-                //TODO: Add Database connection
-=======
->>>>>>> Stashed changes
+            }
+        );
+    }
+}
+
             }
         );
     }
@@ -68,3 +90,4 @@ public class gui {
         salmeBog = new JLabel(new ImageIcon("rsz_2rsz_salmeBog.png"));
     }
 }
+
